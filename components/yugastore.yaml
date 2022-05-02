@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tap-gui-component
-  description: Tanzu Application Platform GUI Component
+  name: yugastore-component
+  description: Yugabyte Retail TAP Components
   tags:
     - v1alpha1
   annotations:
@@ -12,4 +12,4 @@ spec:
   type: service
   lifecycle: production
   owner: default-team
-  system: tap-gui
+  system: yugastore
