@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: yugastore
+  name: frontend
   description: Yugabyte Retail TAP Components
   tags:
     - v1alpha1
