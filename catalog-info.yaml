@@ -8,12 +8,12 @@ metadata:
 spec:
   targets:
     - ./components/tap-gui.yaml
-    - ./components/yugastore.yaml
-    - ./components/frontend.yaml
-    - ./components/cart.yaml
-    - ./components/products.yaml
+   # - ./components/yugastore.yaml
+  #  - ./components/frontend.yaml
+ #   - ./components/cart.yaml
+ #   - ./components/products.yaml
     - ./groups/default-org.yaml
     - ./systems/tap-gui-system.yaml
-    - ./systems/yugastore-system.yaml
+ #   - ./systems/yugastore-system.yaml
     - ./domains/tap-gui-domain.yaml
-    - ./domains/yugastore-domain.yaml
+  #  - ./domains/yugastore-domain.yaml
